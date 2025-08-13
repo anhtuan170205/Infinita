@@ -11,7 +11,6 @@ public class InputHandler : MonoBehaviour
 
         input.x = Input.GetAxis("Horizontal");
         input.y = Input.GetAxis("Vertical");
-        Debug.Log($"Input: {input}");
 
         carHandler.SetInput(input);
 
