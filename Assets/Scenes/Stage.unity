@@ -638,7 +638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sectionsPrefab:
-  - {fileID: 3104990640282067554, guid: f517a57d07c0b4974b8419f2a9240235, type: 3}
+  - {fileID: 3104990640282067554, guid: 3727e88dcb8764e458e0a8aaeeff6f51, type: 3}
+  - {fileID: 3104990640282067554, guid: 592c7050245884c4e8caa451f6df3cc1, type: 3}
 --- !u!4 &1119999096
 Transform:
   m_ObjectHideFlags: 0
