@@ -162,6 +162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2164104946392579743}
+  - component: {fileID: -6819036528540882014}
   m_Layer: 0
   m_Name: Endless Section City PF
   m_TagString: Untagged
@@ -187,6 +188,18 @@ Transform:
   - {fileID: 858951812228190453}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6819036528540882014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3104990640282067554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5321b666e3b84a80b7c3473a8dad746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9000316682567853733
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,7 +32,7 @@ public class EndlessLevelHandler : MonoBehaviour
         for (int i = 0; i < activeSections.Length; i++)
         {
             GameObject randomSection = GetRandomSectionFromPool();
-            randomSection.transform.position = new Vector3(sectionsPool[i].transform.position.x, 0, i * sectionLength);
+            randomSection.transform.position = new Vector3(sectionsPool[i].transform.position.x, -10, i * sectionLength);
             randomSection.SetActive(true);
 
             activeSections[i] = randomSection;
@@ -60,7 +60,7 @@ public class EndlessLevelHandler : MonoBehaviour
 
                 activeSections[i] = GetRandomSectionFromPool();
 
-                activeSections[i].transform.position = new Vector3(lastSectionPosition.x, 0, lastSectionPosition.z + sectionLength * activeSections.Length);
+                activeSections[i].transform.position = new Vector3(lastSectionPosition.x, -10, lastSectionPosition.z + sectionLength * activeSections.Length);
                 activeSections[i].SetActive(true);
             }
         }
