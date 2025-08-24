@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 26, z: 1}
+  m_LocalScale: {x: 40, y: 26, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2164104946392579743}
@@ -253,6 +253,8 @@ MonoBehaviour:
   maxRandomObjectCount: 200
   maxZPosition: 13
   maxXPosition: 10
+  localScaleMultiplierMin: 0.2
+  localScaleMultiplierMax: 0.5
   parentTransform: {fileID: 858951812228190453}
 --- !u!1001 &232894607451675292
 PrefabInstance:

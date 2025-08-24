@@ -8,6 +8,8 @@ public class RandomizeObjects : MonoBehaviour
     [SerializeField] private int maxRandomObjectCount = 150;
     [SerializeField] private int maxZPosition = 13;
     [SerializeField] private int maxXPosition = 10;
+    [SerializeField] private float localScaleMultiplierMin = 0.2f;
+    [SerializeField] private float localScaleMultiplierMax = 0.5f;
     [SerializeField] private Transform parentTransform;
     private List<Vector3> usedPositionList = new List<Vector3>();
 
@@ -49,7 +51,7 @@ public class RandomizeObjects : MonoBehaviour
             obj.transform.SetParent(parentTransform, false);
             obj.transform.localPosition = randomPos;
             obj.transform.localRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
-            obj.transform.localScale = Vector3.one * Random.Range(0.2f, 0.5f);
+            obj.transform.localScale = Vector3.one * Random.Range(localScaleMultiplierMin, localScaleMultiplierMax);
         }
     }
 }
